@@ -1,5 +1,5 @@
 -- Which three teams had the losingest seasons?
-
+select year, name, losses from teams order by losses DESC
 -- Expected result:
 --
 -- +------+----------------------+------+--------+
